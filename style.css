@@ -1,0 +1,19 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    background-color: hsl(0, 64%, 81%);
+    color: firebrick;
+    text-align: center;
+}
+
+div {
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+}
+
+.centered {
+    text-align: center;
+}
