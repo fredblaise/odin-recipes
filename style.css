@@ -1,16 +1,21 @@
 body {
-    background-color:lightgray;
+    background-color:#e6e6e6;
 }
 
 h1 {
-    background-color: hsl(0, 64%, 81%);
+    background-color: #eeb0b0;
     border-radius: 5%;
     height: 50px;
     width: auto;
-    color: firebrick;
+    color: #b22222;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+h2 {
+    background-color: #aac1ea;
+    color: #191970;
 }
 
 .flex-container {
