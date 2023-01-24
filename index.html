@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
     <h1>Odin Recipes</h1>
-    <h2>Main dishes</h2>
-    <div class="centered">
-    <a href="recipes/burger.html"><img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p.jpg" height="100px" alt="burger"></a>
-    <p>
-        Burger
-    </p>
-    </div>
-    <div class="centered">
-        <a href="recipes/pizza.html">Pizza</a>
+    <h2>Main Dishes</h2>
+    <div class="flex-container">
+        <button class="flex-container card">
+            <img src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_21/2870431/190524-classic-american-cheeseburger-ew-207p.jpg" width="200px" alt="burger" />
+            <h3><a href="recipes/burger.html">Burger</a></h3>
+            Estimated Time: 20 min
+        </button>
+        <button class="flex-container card">
+            <img src="https://cdn.ruled.me/wp-content/uploads/2014/08/pepperonipizza.jpg" width="200px" alt="pizza" />
+            <h3><a href="/recipes/pizza.html">Pizza</a></h3>
+            Estimated Time: 30 min
+        </button>
     </div>
     <h2>Side Dishes</h2>
-    <div class="centered">
-        <a href="recipes/fries.html">Fries</a>
+    <div class="">
+        <button class="flex-container card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/French_Fries.JPG" width="200px" alt="fries" />
+            <h3><a href="recipes/fries.html">Fries</a></h3>
+            Estimated Time: 40 min
+        </button>
     </div>
     <h2>Beverages</h2>
-    <div class="centered">
-        <a href="recipes/milkshake.html">Milkshake</a>
+    <div class="">
+        <button class="flex-container card">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/delish-220524-chocolate-milkshake-001-ab-web-1654180529.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" width="200px" alt="milkshake" />
+            <h3><a href="recipes/milkshake.html">Milkshake</a></h3>
+            Estimated Time: 40 min
+        </button>
     </div>
+
 </body>
+
 </html>
